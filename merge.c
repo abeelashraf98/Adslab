@@ -39,7 +39,7 @@ void merge(int a[],int m,int b[],int n,int c[]){
         k++;
     }
     printf("\nMerged value \n");
-    for(i=0;i<m+n;i++){
+    for(i=0;i<m+n;i++){     // c contains k elements.  not m+n   .(if A and B contains common elements.)
         printf("%d,",c[i]);
     }
 }
