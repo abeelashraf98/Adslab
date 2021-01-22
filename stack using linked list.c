@@ -58,7 +58,7 @@ void pop()
     return;
   }ptr=top;
   top=top->link;
-  ptr=0;
+  ptr=NULL;
 }
 void search(){
   struct node *ptr;
