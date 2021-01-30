@@ -192,7 +192,7 @@ void deletelast(){
   while(ptr->right!=NULL){
     ptr=ptr->right;
   }prev=ptr->left;
-  ptr->right=NULL;
+  prev->right=NULL;
   free(ptr);
   display();
 }
